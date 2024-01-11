@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  font-family: "Lexend", "Manrope", sans-serif;
+  border: border-box;
+}
+
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --form-bg:#ffffff;
+}
+
+[data-theme="dark"] {
+  --background:#111827;
+  --text-primary: #ffffff;
+  --text-secondary: #d8b4fe ;
+  --form-bg: #1e293b;
+  --accent: #8e05c2;
+}
+
